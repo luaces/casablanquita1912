@@ -1,0 +1,17 @@
+name: Deploy to Firebase Hosting on push
+on:
+  push:
+    branches:
+      - master  # o la rama que desees
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: FirebaseExtended/action-hosting-deploy@v0
+      with:
+        repoToken: "${{ secrets.GITHUB_TOKEN }}"
+        firebaseServiceAccount: "${{ secrets.FIREBASE_TOKEN }}"
+        channelId: live  # O el ID del canal de Firebase Hosting si usas canales
+        projectId: casablanquita-2859c
