@@ -1,0 +1,15 @@
+{
+  "name": "casablanquita",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "hugo-extended": "^0.121.2"
+  },
+  "scripts": {
+    "build": "hugo",
+    "deploy": "firebase deploy"
+  },
+  "author": "",
+  "license": "ISC"
+}
