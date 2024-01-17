@@ -1,0 +1,36 @@
+languageCode = "es-es"
+title = "Casa Blanquita"
+baseURL = "https://casablanquita-2859c.web.app/"
+theme = "hugo-theme-massively"
+googleanalytics = ""
+disqusShortname = ""
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+
+[params]
+  # set below parameter to define a favicon
+  favicon = "favicon.ico"
+  # set to change date format
+  # dateFormat = "02.01.2006"
+  googleMapsAPIKey = "AIzaSyBrZxIsnCu5VF6MzQ9sFNYI44XhdWotK7o"
+# Below parameters can be set to override default post settings
+# [params.posts]
+#     folderName = "post"
+#     pageSize = "6"
+#     featuredPost = true
+#     paginationPages = 2
+#     showFirstLast = false
+ 
+[languages]
+[languages.es]
+  languageName = "Español"
+[languages.en]
+  languageName = "English"
+  title = "Casa Blanquita - English version"
+#[languages.fr]
+#  languageName = "Français"
+#  title = "Massively - Version Française"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

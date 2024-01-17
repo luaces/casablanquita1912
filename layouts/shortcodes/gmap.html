@@ -1,0 +1,77 @@
+{{ $apiKey := printf "?key=%s" .Site.Params.googleMapsAPIKey }}
+{{ $height := .Get "height" | default "480"}}
+{{ $mode := .Get "mode" }}
+
+{{ $baseUrl := "https://www.google.com/maps/embed/v1/" }}
+{{ $assembledUrl := "" }}
+
+<!--  -->
+
+{{ if eq $mode "place" }}
+{{ $assembledUrl = printf "%splace%s" $baseUrl $apiKey }}
+{{ end }}
+
+{{ if eq $mode "view" }}
+{{ $assembledUrl = printf "%sview%s" $baseUrl $apiKey }}
+{{ end }}
+
+{{ if eq $mode "streetview" }}
+{{ $assembledUrl = printf "%sstreetview%s" $baseUrl $apiKey }}
+{{ end }}
+
+<!--  -->
+
+{{ with .Get "query" }}
+{{ $assembledUrl = printf "%s&q=%s" $assembledUrl . }}
+{{ end }}
+
+{{ with .Get "center" }}
+{{ $assembledUrl = printf "%s&center=%s" $assembledUrl . }}
+{{ end }}
+
+{{ with .Get "zoom" }}
+{{ $assembledUrl = printf "%s&zoom=%s" $assembledUrl . }}
+{{ end }}
+
+{{ with .Get "maptype" }}
+{{ $assembledUrl = printf "%s&maptype=%s" $assembledUrl . }}
+{{ end }}
+
+{{ with .Get "language" }}
+{{ $assembledUrl = printf "%s&language=%s" $assembledUrl . }}
+{{ else }}
+{{ $assembledUrl = printf "%s&language=%s" $assembledUrl $.Site.Language.Lang }}
+{{ end }}
+
+{{ with .Get "region" }}
+{{ $assembledUrl = printf "%s&region=%s" $assembledUrl . }}
+{{ end }}
+
+{{ with .Get "location" }}
+{{ $assembledUrl = printf "%s&location=%s" $assembledUrl . }}
+{{ end }}
+
+{{ with .Get "heading" }}
+{{ $assembledUrl = printf "%s&heading=%s" $assembledUrl . }}
+{{ end }}
+
+{{ with .Get "pitch" }}
+{{ $assembledUrl = printf "%s&pitch=%s" $assembledUrl . }}
+{{ end }}
+
+{{ with .Get "fov" }}
+{{ $assembledUrl = printf "%s&fov=%s" $assembledUrl . }}
+{{ end }}
+
+{{ if not $assembledUrl }}
+{{errorf "gmap missing 'mode' param"}}
+{{ end }}
+
+{{ with $assembledUrl }}
+<div class="google-map">
+	<iframe src={{ . }} width="100%" height={{ $height }} frameborder="0" style="border-radius: 8px;">
+	</iframe>
+</div>
+{{ else }}
+{{ errorf "gmap missing query param" }}
+{{ end }}
