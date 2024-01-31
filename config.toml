@@ -1,6 +1,6 @@
 languageCode = "es-es"
 title = "Casa Blanquita"
-baseURL = "https://casablanquita-2859c.web.app/"
+baseURL = "https://casablanquita.es/"
 theme = "hugo-theme-massively"
 googleanalytics = ""
 disqusShortname = ""
