@@ -16,7 +16,7 @@ disableComments = true
 | Temporada     | Fechas                                                                           | Precio                                    |
 | ------------- | -------------------------------------------------------------------------------- | ----------------------------------------- |
 | Alta          | Del 1 de julio al 31 de agosto, del 21 de diciembre al 6 de enero y Semana Santa | 24 €/persona y noche (mínimo tres noches) |
-| Resto del año | Fechas fuera de temporada alta.                                                   | 22 €/persona y noche                      |
+| Resto del año | Fechas fuera de temporada alta                                                   | 22 €/persona y noche                      |
 
 ### Condiciones de reserva y alquiler
 
