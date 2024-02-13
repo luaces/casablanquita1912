@@ -2,7 +2,7 @@ languageCode = "es-es"
 title = "Casa Blanquita"
 baseURL = "https://casablanquita.es/"
 theme = "hugo-theme-massively"
-googleanalytics = ""
+googleanalytics = "G-CVDPEJ7WGL"
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 
