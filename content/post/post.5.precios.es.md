@@ -15,13 +15,13 @@ disableComments = true
 
 | Temporada     | Fechas                                                                           | Precio                                    |
 | ------------- | -------------------------------------------------------------------------------- | ----------------------------------------- |
-| Alta          | Del 1 de julio al 31 de agosto, del 21 de diciembre al 6 de enero y Semana Santa | 25 €/persona y noche (mínimo tres noches) |
-| Resto del año | Fechas fuera de temporada alta                                                   | 23 €/persona y noche                      |
+| Alta          | Del 1 de julio al 31 de agosto, del 21 de diciembre al 6 de enero y Semana Santa | 26 €/persona y noche (mínimo tres noches) |
+| Resto del año | Fechas fuera de temporada alta                                                   | 24 €/persona y noche                      |
 
 ### Condiciones de reserva y alquiler
 
 - Alquiler de casa completa: 4 habitaciones, 6 camas (2 de ellas de matrimonio), 2 camas supletorias y una cuna.
-- El precio mínimo a pagar será de 98€ durante todo el año a excepción de temporada alta cuyo importe será de 102€.
+- El precio mínimo a pagar será de 102€ durante todo el año a excepción de temporada alta cuyo importe será de 106€.
 - Posibilidad de hasta 12 personas a solicitud del cliente con 2 camas supletorias a 10 euros por persona y noche.
 - Pueden alojarse niños de todas las edades.
 - Se puede fumar.
