@@ -3,7 +3,7 @@ title = 'Ubicación y Entorno'
 slug = 'ubicacion'
 image = 'images/ent1.jpeg'
 date = "2019-04-11T00:00:00"
-description = 'Situada en el mismísimo centro del casco histórico de Molinaseca, en el REAL CAMINO DE SANTIAGO.'
+description = 'Situada en el mismísimo centro del casco histórico de Molinaseca, en el Real Camino de Santiago.'
 disableComments = true
 +++
 
@@ -11,7 +11,7 @@ Molinaseca es uno de los más típicos pueblos de todo el Camino de Santiago, a 
 
 {{< google-maps-location height="300" location="Casa Blanquita Molinaseca Spain" >}}
 
-El propio pueblo es una joya de arquitectura tradicional, con iglesia, ermita y el famoso puente romano que cruza el rio Meruelo y es cruzado, a su vez, cada año por miles de peregrinos que inmediatamente se introducen en su famosa Real Calle Camino de Santiago.
+El propio pueblo es una joya de arquitectura tradicional, con iglesia, ermita y el famoso puente romano que cruza el rio Meruelo y es cruzado, a su vez, por miles de peregrinos que inmediatamente se introducen cada año en su famosa Calle Real, Camino de Santiago.
 
 ![Pueblo](/images/ent2.jpeg)
 
