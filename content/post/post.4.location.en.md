@@ -3,7 +3,7 @@ title = 'Location & Surroundings'
 slug = 'location'
 image = 'images/ent1.jpeg'
 date = "2019-04-11T00:00:00"
-description = 'Located in the very center of the historic center of Molinaseca, in the REAL CAMINO DE SANTIAGO.'
+description = 'Located in the very center of the historic center of Molinaseca, in the Real Camino de Santiago.'
 disableComments = true
 +++
 
@@ -11,7 +11,7 @@ Molinaseca is one of the most typical villages of the Camino de Santiago, 6 km f
 
 {{< google-maps-location height="300" location="Casa Blanquita Molinaseca Spain" >}}
 
-The village itself is a jewel of traditional architecture, with church, hermitage and the famous Roman bridge that crosses the river Meruelo and is crossed, in turn, each year by thousands of pilgrims who immediately enter its famous Real Calle Camino de Santiago.
+The village itself is a jewel of traditional architecture, with church, hermitage and the famous Roman bridge that crosses the river Meruelo and is crossed, in turn, each year by thousands of pilgrims who immediately enter its famous Calle Real, Camino de Santiago.
 
 ![Village](/images/ent2.jpeg)
 
