@@ -16,13 +16,13 @@ disableComments = true
 
 | Season           | Dates                                                                 | Price                                        |
 | ---------------  | ------------------------------------------------------------------    | ----------------------------------------     |
-| High             | July 1st to August 31st, December 21st to January 6th and Easter Week | 26 €/person per night (minimum three nights) |
-| Rest of the year | Dates out of high season                                              | 24 €/person per night                        |
+| High             | July 1st to August 31st, December 18st to January 6th and Easter Week | 27 €/person per night (minimum three nights) |
+| Rest of the year | Dates out of high season                                              | 25 €/person per night                        |
 
 
 ### Booking and rental conditions
 * Rental of complete house: 4 bedrooms, 6 beds (2 of them double beds), 2 extra beds and a cradle. 
-* The minimum price to be paid will be 102€ during the whole year except for high season when the price will be 106€.
+* The minimum price to be paid will be 106€ during the whole year except for high season when the price will be 114€.
 * Possibility of up to 12 people at the request of the client with 2 extra beds at 10 euros per person per night.
 * Children of all ages can be accommodated.
 * Smoking is allowed.
